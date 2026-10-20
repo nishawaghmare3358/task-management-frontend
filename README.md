@@ -1,36 +1,34 @@
 # Task Management Frontend
 
-A responsive React frontend for a Task Management REST API.
+A responsive task management web application built using React and Vite. It connects to a REST API to help users manage their tasks.
 
 ## Features
 
-- User login and authentication
-- View the task list using API data
+- View tasks
 - Create new tasks
-- View task details
-- Edit and update tasks
+- Edit existing tasks
 - Delete tasks
-- Form validation
-- Loading and error messages
+- Mark tasks as completed
+- Loading and error handling
 - Navigation using React Router
 
 ## Technologies Used
 
 - React
+- JavaScript
 - Vite
-- JavaScript (ES6+)
 - React Router
-- HTML5 and CSS3
-- Fetch API
+- CSS
+- REST API
 
-## Requirements
+## Prerequisites
 
 - Node.js and npm
-- Task Management REST API backend
+- Task Management REST API running locally
 
-## How to Run the Project
+## Installation
 
-1. Clone this repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/nishawaghmare3358/task-management-frontend.git
@@ -48,32 +46,26 @@ A responsive React frontend for a Task Management REST API.
    npm install
    ```
 
-4. Start the backend API at `http://localhost:3000`.
+## Run the Application
 
-5. Start the frontend:
-
-   ```bash
-   npm run dev
-   ```
-
-6. Open the local URL shown in your terminal, usually `http://localhost:5173`.
-
-## Production Build
-
-Run the following command:
+Start the development server:
 
 ```bash
-npm run build
+npm run dev
 ```
 
-## API Configuration
+Open the local URL displayed in your terminal, usually `http://localhost:5173`.
 
-The frontend uses the backend API at `http://localhost:3000/api`. Ensure the backend is running.
+## Backend API
 
-## GitHub Repository
+The frontend connects to the Task Management REST API. Start the backend separately and ensure the API URL is configured correctly for your local setup.
 
-https://github.com/nishawaghmare3358/task-management-frontend
+## Project Repository
 
-## Author
+[Task Management Frontend on GitHub](https://github.com/nishawaghmare3358/task-management-frontend)
 
-Nisha Waghmare
+## Future Improvements
+
+- Improve responsive design
+- Add more user-friendly validation
+- Enhance accessibility and user experience
