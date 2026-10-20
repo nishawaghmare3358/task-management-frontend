@@ -1,16 +1,79 @@
-# React + Vite
+# Task Management Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive React frontend for a Task Management REST API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User login and authentication
+- View the task list using API data
+- Create new tasks
+- View task details
+- Edit and update tasks
+- Delete tasks
+- Form validation
+- Loading and error messages
+- Navigation using React Router
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript (ES6+)
+- React Router
+- HTML5 and CSS3
+- Fetch API
 
-## Expanding the Oxlint configuration
+## Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Node.js and npm
+- Task Management REST API backend
+
+## How to Run the Project
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/nishawaghmare3358/task-management-frontend.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd task-management-frontend
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the backend API at `http://localhost:3000`.
+
+5. Start the frontend:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the local URL shown in your terminal, usually `http://localhost:5173`.
+
+## Production Build
+
+Run the following command:
+
+```bash
+npm run build
+```
+
+## API Configuration
+
+The frontend uses the backend API at `http://localhost:3000/api`. Ensure the backend is running.
+
+## GitHub Repository
+
+https://github.com/nishawaghmare3358/task-management-frontend
+
+## Author
+
+Nisha Waghmare
