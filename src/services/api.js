@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://task-management-api-qu4h.onrender.com/api";
 
 const api = {
   async request(method, path, body) {
